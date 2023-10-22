@@ -1,0 +1,106 @@
+.chat{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+    width: 600px;
+    height: 750px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow-y: scroll;
+    background-color: lightgray;
+    
+  }
+  
+  .head {
+    background-color: #4b74ff;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .msg {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .msg:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .msg button {
+    margin-left: auto;
+    background-color: transparent;
+    border: none;
+    color: #4b74ff;
+    cursor: pointer;
+  }
+  
+  .msg button:hover {
+    text-decoration: underline;
+  } 
+  
+  .wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    }
+    .card{
+    
+    }
+    .input {
+      width: 350px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px ;
+    }
+    
+    .btn {
+      height: 39px;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 15px;
+    }
+    
+    .btn:hover {
+    background-color: #0056b3;
+    }
+    
+    .btn:active {
+    background-color: #00326a;
+    }
+    
+    .btn:focus {
+    outline: none;
+    }
+    
+    a {
+    text-decoration: underline;
+    color: #007bff;
+    }
+    
+    a:hover {
+    color: #0056b3;
+    }
+    .login{
+      display: flex;
+      flex-direction: column;
+      background-color: white;
+      width: 600px;
+      margin-left: 650px;
+      border-radius: 25px;
+    }
+    .text{
+      text-align: center;
+    }

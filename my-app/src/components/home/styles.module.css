@@ -1,0 +1,114 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  padding: 20px;
+  width: 500px;
+  border-radius: 20px;
+  
+}
+.body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10%;
+}
+.head {
+  color: white;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.inputUser,
+.inputPassword {
+  width: 300px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+.btn,
+.btnLogIn {
+  width: 200px;
+  padding: 10px;
+  margin: 10px 0;
+  color: white;
+  background-color: purple;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn:hover,
+.btnLogIn:hover {
+  background-color: darkpurple;
+}
+
+.text{
+  color: white;
+  margin: 10px 0;
+}
+
+.btnLogIn {
+  background-color: darkviolet;
+}
+
+.btnLogIn:hover {
+  background-color: purple;
+}
+.cont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10%;
+}
+.profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #6a5acd;
+    width: 450px;
+    padding: 20px;
+    border-radius: 35px;
+  }
+  
+  .data {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .text {
+    background-color: #fff;
+    color: #6a5acd;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .text:hover {
+    background-color: #f8f8ff;
+  }
+ 
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
